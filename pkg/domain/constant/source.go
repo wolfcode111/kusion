@@ -16,7 +16,7 @@ var (
 )
 
 const (
-	// SourceProviderTypeGithub represents github source provider type.
+	// SourceProviderTypeGit SourceProviderTypeGithub represents github source provider type.
 	SourceProviderTypeGit    SourceProviderType = "git"
 	SourceProviderTypeGithub SourceProviderType = "github"
 

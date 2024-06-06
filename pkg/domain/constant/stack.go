@@ -10,11 +10,11 @@ type StackState string
 
 // These constants represent the possible states of a stack.
 const (
-	// The stack has not been synced with the remote runtime.
+	// StackStateUnSynced The stack has not been synced with the remote runtime.
 	StackStateUnSynced StackState = "UnSynced"
-	// The stack is synced with the remote runtime.
+	// StackStateSynced The stack is synced with the remote runtime.
 	StackStateSynced StackState = "Synced"
-	// The stack has out of sync from the remote runtime.
+	// StackStateOutOfSync The stack has out of sync from the remote runtime.
 	StackStateOutOfSync StackState = "OutOfSync"
 )
 
